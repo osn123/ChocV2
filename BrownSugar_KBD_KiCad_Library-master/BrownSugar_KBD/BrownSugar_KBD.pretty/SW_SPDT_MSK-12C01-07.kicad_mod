@@ -1,0 +1,224 @@
+(footprint "SW_SPDT_MSK-12C01-07"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.55 180)
+		(layer "F.SilkS")
+		(uuid "825a5b24-d82a-49e0-ab60-bffdeefda8af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_MSK-12C01-07"
+		(at 0 5.25 180)
+		(layer "F.Fab")
+		(uuid "fa2465fe-83c1-425d-9507-2ec65fa9bac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "355dc656-fa3a-49ba-905b-8e86a1ee441b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c48e10f-2a9c-4d36-86b8-134e3e7e171f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a497813-06d9-4c64-84c8-05167a7b6583")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -1.35)
+		(end -3.3 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9168f911-307a-4c85-b3d2-146593a14de2")
+	)
+	(fp_line
+		(start -3.3 -1.35)
+		(end 3.3 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8d61c969-81e0-44be-9cb2-6b4273e70ad2")
+	)
+	(fp_line
+		(start -3.3 1.35)
+		(end 3.3 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "068e062c-c680-4a6c-9ec0-9021877502bb")
+	)
+	(fp_line
+		(start 0 -2.85)
+		(end 0 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "395b52ca-88cf-4468-bb65-85268b5349cf")
+	)
+	(fp_line
+		(start 0 -2.85)
+		(end 1.3 -2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dbef2102-7ef8-46d3-89a2-b1c43b5539c8")
+	)
+	(fp_line
+		(start 1.3 -2.85)
+		(end 1.3 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9859adcb-dea6-46d9-b746-e2538bb98a62")
+	)
+	(fp_line
+		(start 3.3 -1.35)
+		(end 3.3 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ad0b073-1b4d-413f-9ecf-3632221dc024")
+	)
+	(fp_line
+		(start -5 -1.35)
+		(end 5 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88cf1398-e856-49a0-aa1c-e20d48a729a1")
+	)
+	(fp_text user "PCB Edge"
+		(at 5.5 -1.35 0)
+		(layer "F.Fab")
+		(uuid "7bb0db06-e4da-4454-9563-157701f14704")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.45 0)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4cd8a387-90ab-42de-9508-b0b4b8b314a7")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.45 0)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "66e7439e-4c46-403f-ba5c-ca6dc2f325f6")
+	)
+	(pad "1" smd rect
+		(at -2.2 1.9)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ab2dd66b-bab8-4e97-82c2-a8d6cdac245e")
+	)
+	(pad "2" smd rect
+		(at -0.7 1.9)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da92d916-c6b2-4e49-9e2d-74b5f89bdeaa")
+	)
+	(pad "3" smd rect
+		(at 2.2 1.9)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a51d710-7bbf-4a27-959a-4f524ab47fb9")
+	)
+	(pad "MP" smd rect
+		(at -3.65 -1.05)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4ad91c2-f19f-4f68-9ea1-e0c2c286e92d")
+	)
+	(pad "MP" smd rect
+		(at -3.65 1.05)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7df21c9f-ed93-45b8-b81f-d78709944473")
+	)
+	(pad "MP" smd rect
+		(at 3.65 -1.05)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5256197a-4f8b-4638-bc5e-013da1dcb917")
+	)
+	(pad "MP" smd rect
+		(at 3.65 1.05)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2be6a92d-49f2-4c42-bf0b-5667fb88a1f2")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/MSK-12C01-07.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

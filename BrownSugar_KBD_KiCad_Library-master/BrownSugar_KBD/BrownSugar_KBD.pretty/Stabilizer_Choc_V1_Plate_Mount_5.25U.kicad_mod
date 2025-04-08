@@ -1,0 +1,237 @@
+(footprint "Stabilizer_Choc_V1_Plate_Mount_5.25U"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c2b0524-85e5-47bd-973c-d8dc3ba6b464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer 5.25U"
+		(at 0 -8 0)
+		(layer "F.Fab")
+		(uuid "31083e3f-0d4c-4086-9d0a-e4c12f976d62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c83f08-b12f-42e3-882e-920eff90975b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dac49a1-6f67-4ca7-8945-dfb3da3be5c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f61e119d-8635-4eb4-a797-81c5c4b1f656")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -41.15 -3.3)
+		(end -41.15 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1031058-aa35-4e3c-b311-1be02d953f8d")
+	)
+	(fp_line
+		(start -41.15 3.3)
+		(end -39.6 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e1a9348-56c9-4bf0-b6ae-459378ac68d2")
+	)
+	(fp_line
+		(start -39.6 3.3)
+		(end -39.6 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b32a53f-9be6-45ab-aa02-8a968de7db48")
+	)
+	(fp_line
+		(start -39.6 9)
+		(end -36.4 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "88439a30-d58c-430c-950f-e89f4cd9226d")
+	)
+	(fp_line
+		(start -36.4 3.3)
+		(end -34.85 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "55dc12e1-d887-4e6e-8bad-b680ed20209d")
+	)
+	(fp_line
+		(start -36.4 9)
+		(end -36.4 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7274fe58-f066-47f9-b54a-fa656533bcd1")
+	)
+	(fp_line
+		(start -34.85 -3.3)
+		(end -41.15 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4a901483-ca49-433b-b656-8f36613bf016")
+	)
+	(fp_line
+		(start -34.85 3.3)
+		(end -34.85 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eb0afcf3-fae0-465f-8cd2-826417a8eeef")
+	)
+	(fp_line
+		(start 34.85 -3.3)
+		(end 41.15 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e8f3bfc-5f7a-4733-aced-d4399c5dfbfe")
+	)
+	(fp_line
+		(start 34.85 3.3)
+		(end 34.85 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a12a9e8-0730-4a29-adc8-0384d73cfc0f")
+	)
+	(fp_line
+		(start 36.4 3.3)
+		(end 34.85 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff65ab34-ed42-4248-b8c1-3bad8731ceab")
+	)
+	(fp_line
+		(start 36.4 9)
+		(end 36.4 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5eb86152-9d88-47ef-bedb-c866b64f327c")
+	)
+	(fp_line
+		(start 39.6 3.3)
+		(end 39.6 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "aca1c7c7-e71d-4a70-9241-3b5cb849c56c")
+	)
+	(fp_line
+		(start 39.6 9)
+		(end 36.4 9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8df462f6-7ec7-4ff1-9002-3805752a368a")
+	)
+	(fp_line
+		(start 41.15 -3.3)
+		(end 41.15 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9c4198cb-8784-4dcf-8fc2-da3aaa976230")
+	)
+	(fp_line
+		(start 41.15 3.3)
+		(end 39.6 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b048a7e8-d3c2-4d62-a444-90f49ecef437")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/choc/KiCad/stabilizer_5_25u.step"
+		(offset
+			(xyz 0 0 -2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

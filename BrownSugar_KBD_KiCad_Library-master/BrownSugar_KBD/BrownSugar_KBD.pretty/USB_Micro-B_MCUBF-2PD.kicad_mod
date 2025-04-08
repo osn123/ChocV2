@@ -1,0 +1,178 @@
+(footprint "USB_Micro-B_MCUBF-2PD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "06f513dc-8fdf-4a28-9e94-475bd9e957f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_Micro-B_MCUBF-2PD"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "8f5bd0f1-32ac-4d08-b136-929b6e9f5100")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98d84f82-e54c-4c65-982e-8bf01e2f3619")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "352c65ed-a355-4353-89cf-5834889ff30a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff11b89-fc18-4664-9bac-c1dcf9fc4ad0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.825 -3.5)
+		(end -3.825 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ea7a074-cf44-46f3-af51-86fae756fad4")
+	)
+	(fp_line
+		(start -3.825 -3.5)
+		(end 3.825 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4067cc4-1f35-411a-a0ee-b7a8cf08230b")
+	)
+	(fp_line
+		(start -3.825 4.6)
+		(end 3.825 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "428a3b89-388f-462f-aa17-a312ea2e3d35")
+	)
+	(fp_line
+		(start 3.825 4.6)
+		(end 3.825 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57fbec18-1784-4ace-ac5f-730a46c21f10")
+	)
+	(fp_line
+		(start -3 3.5)
+		(end -2 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06092f1c-174b-420c-b0e9-24ef95a80ec6")
+	)
+	(fp_line
+		(start 2 3.5)
+		(end 3 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54d459a4-8869-44f7-84ce-92db4087e400")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end 2.5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96f511c3-ab54-4d62-acca-750156531f05")
+	)
+	(pad "" thru_hole oval
+		(at -3.6 0)
+		(size 1.55 2.2)
+		(drill oval 0.75 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bda74127-5272-4213-83e5-b2726f308097")
+	)
+	(pad "" thru_hole oval
+		(at 3.6 0 180)
+		(size 1.55 2.2)
+		(drill oval 0.75 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "400ce5d2-8893-4ff5-a185-246b67e92776")
+	)
+	(pad "1" thru_hole circle
+		(at 1.3 4.69)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02958d67-6591-4784-b7ec-01d3448df5d1")
+	)
+	(pad "2" thru_hole circle
+		(at -1.3 4.69)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4bce7b79-69b5-41df-b57f-a4796539447e")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/MCUBF-2PD.wrl"
+		(offset
+			(xyz 0 -0.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

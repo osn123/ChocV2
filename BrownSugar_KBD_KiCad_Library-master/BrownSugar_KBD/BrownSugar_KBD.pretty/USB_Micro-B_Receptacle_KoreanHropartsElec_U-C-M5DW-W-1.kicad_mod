@@ -1,0 +1,223 @@
+(footprint "USB_Micro-B_Receptacle_KoreanHropartsElec_U-C-M5DW-W-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "47023534-8fb8-49e5-a953-bb08d7a2dd56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_Micro-B_Receptacle_KoreanHropartsElec_U-C-M5DW-W-1"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "f74124d9-9ccc-4ade-bb63-19d0503b88e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6249f291-cacd-4096-8283-efbea37ec59d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a903c53-6104-4b83-95d1-12bf9a3769cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbcfa654-d265-420c-91ab-9607e1ec6383")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -5)
+		(end 6 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1505b0d5-6cb4-4bc5-8f6f-4b5916eccf2d")
+	)
+	(fp_line
+		(start -6 3)
+		(end -6 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a896ff9-d654-45a7-84f7-5ea04964539d")
+	)
+	(fp_line
+		(start 6 -5)
+		(end 6 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "072d1bd6-af44-4e73-a67d-30ef6752cfc2")
+	)
+	(fp_line
+		(start 6 3)
+		(end -6 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df9947a1-ee79-4101-9e7b-1ef467d20e64")
+	)
+	(fp_line
+		(start -6.9 2)
+		(end -3.9 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07626a2e-2991-4e69-bb03-510c4fe9b70e")
+	)
+	(fp_line
+		(start -3.9 -3.1)
+		(end 3.9 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f9bd731-41b8-4ce5-bc7f-f3080ff8fcb8")
+	)
+	(fp_line
+		(start -3.9 2)
+		(end -3.9 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e451e3c-7116-486e-85f2-566f8a1facca")
+	)
+	(fp_line
+		(start 3.9 2)
+		(end 3.9 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca61897f-f34a-4d7a-b0ba-e3011780504c")
+	)
+	(fp_line
+		(start 6.9 2)
+		(end 3.9 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf2ecc07-d830-42f1-928b-7c6b73dc6abe")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "35493af4-e546-46d9-bba2-5ccb24e785e4")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 -3.95)
+		(size 0.4 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6ccb02b-2994-4d2a-9ee1-081f4204b7f4")
+	)
+	(pad "2" smd rect
+		(at -0.65 -3.95)
+		(size 0.4 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de6d66f2-abc3-430e-8999-c013908d1a80")
+	)
+	(pad "3" smd rect
+		(at 0 -3.95)
+		(size 0.4 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e345078b-abc2-45e4-9d07-5ca2891af6ce")
+	)
+	(pad "4" smd rect
+		(at 0.65 -3.95)
+		(size 0.4 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2fc6662-eb77-4d7e-be53-21abd325ff36")
+	)
+	(pad "5" smd rect
+		(at 1.3 -3.95)
+		(size 0.4 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cc631809-33c4-4661-9609-583fa69c7f68")
+	)
+	(pad "6" thru_hole oval
+		(at -4.7 0)
+		(size 1.15 2.5)
+		(drill oval 0.55 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8227800-55e8-44ab-aacc-ec6d2733c1ba")
+	)
+	(pad "6" thru_hole oval
+		(at 4.7 0)
+		(size 1.15 2.5)
+		(drill oval 0.55 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d76c7d0-e7e2-45d5-8c20-ebc8949953de")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/KoreanHropartsElec_U-C-M5DW-W-1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,151 @@
+(footprint "SW_DPST_TS3315"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "f131dfab-5c75-45a4-ad83-8baa38866b84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TS3315"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "a351433d-f1de-416f-8110-0dce68b29d9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f349ef19-6018-4aa6-8d9d-1eb70342b145")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35366e8e-d137-4ec6-ad6b-4ff05d94e6d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a84722d2-067e-4545-af6b-3e955206204a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 -1.55)
+		(end -1.55 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2481a595-aad7-4f55-ac0c-d5f85421dabe")
+	)
+	(fp_line
+		(start -1.55 1.55)
+		(end 1.55 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7073f29-c676-40b7-914d-3eed936b3204")
+	)
+	(fp_line
+		(start 1.55 -1.55)
+		(end -1.55 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba7e6221-b769-40e0-9fac-cd9228ee03a1")
+	)
+	(fp_line
+		(start 1.55 1.55)
+		(end 1.55 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "908d936c-2029-4f19-9c9e-907935d8f274")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0dd247f5-cb4c-443d-9084-e357e9688b8a")
+	)
+	(pad "1" smd rect
+		(at -1.875 -1)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0fa7f1ed-4338-44d1-8599-ae6019ef06fa")
+	)
+	(pad "2" smd rect
+		(at 1.875 -1)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a204b8f-e131-4b48-8077-00436139e3dc")
+	)
+	(pad "3" smd rect
+		(at -1.875 1)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "132f00df-2cfb-486d-8c0d-4eb9ef5da1b8")
+	)
+	(pad "4" smd rect
+		(at 1.875 1)
+		(size 1.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b6280492-c93a-447b-9fc6-1af4f6266bbe")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/TS3315.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

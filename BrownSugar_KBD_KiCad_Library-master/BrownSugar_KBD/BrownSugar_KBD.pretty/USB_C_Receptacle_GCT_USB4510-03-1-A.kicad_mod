@@ -1,0 +1,305 @@
+(footprint "USB_C_Receptacle_GCT_USB4510-03-1-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "5a30b9a9-1dca-4b70-984d-997dd3e41daf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_Receptacle_GCT_USB4510-03-1-A"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "f07535a6-6e95-4a19-8a19-fb52d6e8a5ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9c3c18e-eb56-4ae4-a79c-5af5ded0b26e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbe255a0-7d5a-40e0-a907-96947d706f25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed95c4f0-db9f-46a1-988c-941e0a9fa37c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.5 -5)
+		(end -6.5 3.675)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91e5d965-b788-4de3-b6a5-e9d83725032d")
+	)
+	(fp_line
+		(start -6.5 -5)
+		(end 6.5 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f968711-dceb-463f-8e48-752c7b37ebbd")
+	)
+	(fp_line
+		(start -6.5 3.675)
+		(end 6.5 3.675)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f936197c-8161-4b36-abc4-7a6ec98ab7f5")
+	)
+	(fp_line
+		(start 6.5 3.675)
+		(end 6.5 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a01f494-f9dd-4afd-b0ba-8fa685c107fe")
+	)
+	(fp_line
+		(start -8 2.7)
+		(end -4.62 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b31482c-eb73-4afe-b50b-3500697d3a0b")
+	)
+	(fp_line
+		(start -4.62 -3.5)
+		(end 4.62 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd60f08d-f13c-4afb-b4b4-69fafa95acc2")
+	)
+	(fp_line
+		(start -4.62 2.7)
+		(end -4.62 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ebec72d-6eac-4134-ad59-15e3c0daa389")
+	)
+	(fp_line
+		(start 4.62 -3.5)
+		(end 4.62 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48b40813-1db7-41ed-8f10-9e32a5dff089")
+	)
+	(fp_line
+		(start 4.62 2.7)
+		(end 8 2.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49b6dbb2-f017-42fc-83ef-ccd7498a62ae")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(uuid "a0376475-0e14-4551-bb9f-83c693a20c55")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A1" smd rect
+		(at -3.2 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9ac7a98-688d-4b1d-b8af-91b794f353df")
+	)
+	(pad "A4" smd rect
+		(at -2.4 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "07f75b6e-8f87-4f68-8254-ce51c21e2f51")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a26ca1d5-9e17-4627-b37c-64ec3be65f23")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d08e6f0d-766e-42f7-be16-665a790a1d66")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14bd8c4e-2204-477e-bd36-4fa0337fe46d")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d702675-3cf1-4352-9a4d-226e74adb260")
+	)
+	(pad "A9" smd rect
+		(at 2.4 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "effe7ab4-6f13-4dbc-845e-9fd75479ea2d")
+	)
+	(pad "A12" smd rect
+		(at 3.2 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7226120d-c684-4b18-a5c9-6bab50372cdc")
+	)
+	(pad "B1" smd rect
+		(at 3.2 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e34b1882-6fc0-4b30-b5fe-9e6ecdd529a0")
+	)
+	(pad "B4" smd rect
+		(at 2.4 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08262230-bb3e-4750-9f66-2493d57b3dee")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48bf5ff9-34a5-4ff8-b5cd-f511aa6a6630")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a3330aae-6e64-4d29-bfc6-99ba74caefd0")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c9d078b-da86-4d4f-af15-c03096b8449b")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -4.05)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "79730a64-146f-42b8-a937-8483cf718393")
+	)
+	(pad "B9" smd rect
+		(at -2.4 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e1065a98-c56b-48b3-b8dd-65971df6d818")
+	)
+	(pad "B12" smd rect
+		(at -3.2 -4.05)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87644100-baa3-44e8-8cf0-2647fcd08bba")
+	)
+	(pad "S1" thru_hole oval
+		(at -5.62 -2.85)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "448bd4d3-84d8-4d92-bb8a-87f76bf3fc76")
+	)
+	(pad "S1" thru_hole oval
+		(at -5.62 1.15)
+		(size 1 2.2)
+		(drill oval 0.6 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f89751b7-22b4-46c9-b67f-b4ebd4791f68")
+	)
+	(pad "S1" thru_hole oval
+		(at 5.62 -2.85)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "206b73c4-4c2b-4be9-8dfc-637fc377b5ce")
+	)
+	(pad "S1" thru_hole oval
+		(at 5.62 1.15)
+		(size 1 2.2)
+		(drill oval 0.6 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3f32291-3d75-4da5-bbc0-87a4f7cf3f6a")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/GCT_USB4510-03-1-A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

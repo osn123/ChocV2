@@ -1,0 +1,140 @@
+(footprint "RGBLED_SK6812-SIDE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "30d29b88-0c29-478b-8741-a7f5be75114a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812-SIDE"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "38250f00-52c3-40b2-8d81-97fd522da9d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "162ea1a1-4ee6-4b7b-bd81-8ac009946702")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c59df8ba-ae21-43b6-b6f2-391a63522f09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "929f4f8b-aecb-4418-9a32-b03aa93ca8ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -0.75)
+		(end -2 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d26dec94-b239-4b3b-bc0a-4a49d2511841")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -2 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa25f756-8089-4c19-9c2c-cd337cc135db")
+	)
+	(fp_line
+		(start 1.5 -0.75)
+		(end 2 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05a4932a-e26d-42d3-8186-9c6bba5a111d")
+	)
+	(fp_line
+		(start 2 -0.75)
+		(end 2 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "000a59cf-2dc9-4e69-a548-3c1539bfb4a3")
+	)
+	(pad "1" smd rect
+		(at 1.225 0.5)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b289e4d-8935-45ec-8c59-4a9bf8ea6e6f")
+	)
+	(pad "2" smd rect
+		(at 0.25 0.5)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ac90866-68f3-4375-8747-05a80991c67c")
+	)
+	(pad "3" smd rect
+		(at -0.625 0.5)
+		(size 0.45 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcbee752-7bbc-4ea8-a458-078b892ed801")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.5)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e9a35d32-a19c-4dc9-bce5-0dcfd176baab")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/SK6812-SIDE.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

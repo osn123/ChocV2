@@ -1,0 +1,239 @@
+(footprint "Stabilizer_MX_PCB_Mount_6U"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.8 10.525 0)
+		(layer "F.Fab")
+		(uuid "6685d03f-8a06-4c69-8c15-403b285703dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer"
+		(at -3.8 10.525 0)
+		(layer "F.Fab")
+		(uuid "0fb9b388-bfd0-4e54-9c33-c4811c300120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d28925e7-6630-42c2-86ca-5eac65447986")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8faef65-297b-4c6e-8a1c-bf31ec5700db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c115162b-5aeb-48ab-9ccd-5168c523349e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -47.625 -6.985)
+		(end -44.625 -6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "3920e6ce-6e7c-4d65-84ec-4d5d116346cb")
+	)
+	(fp_circle
+		(center -47.625 8.255)
+		(end -44.375 8.255)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "f12c5b8a-6e4e-48d9-afe0-d177ad088d27")
+	)
+	(fp_circle
+		(center 47.625 -6.985)
+		(end 50.625 -6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "aa5d3a73-0510-4f96-832e-681111ae7285")
+	)
+	(fp_circle
+		(center 47.625 8.255)
+		(end 50.875 8.255)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "62d00c19-29a4-4a5a-a44b-6f4bc507d80d")
+	)
+	(fp_line
+		(start -52.125 -10.085)
+		(end -52.125 10.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42219010-841a-4ca1-a12c-0cb5384ea3d3")
+	)
+	(fp_line
+		(start -52.125 10.915)
+		(end -43.125 10.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70998db0-962c-4126-aeca-570e629f3597")
+	)
+	(fp_line
+		(start -43.125 -10.085)
+		(end -52.125 -10.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "057c482c-5ffb-4207-8fa6-c727958c7871")
+	)
+	(fp_line
+		(start -43.125 10.915)
+		(end -43.125 -10.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3352ba3-4028-4dd2-b119-81302e8af5ea")
+	)
+	(fp_line
+		(start 43.125 -10.085)
+		(end 52.125 -10.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6c4d6ea-a4a5-4e20-ba51-50c68d733995")
+	)
+	(fp_line
+		(start 43.125 10.915)
+		(end 43.125 -10.085)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49d8c269-9616-49cd-8cea-066d9cbd355d")
+	)
+	(fp_line
+		(start 52.125 -10.085)
+		(end 52.125 10.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c785bd0e-657a-471b-97a4-205129bc797c")
+	)
+	(fp_line
+		(start 52.125 10.915)
+		(end 43.125 10.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e090c89e-e023-4f6d-bce6-3dcf517b2b71")
+	)
+	(fp_text user "Stabilizer 6U"
+		(at 0 -10.525 0)
+		(layer "F.Fab")
+		(uuid "35a2fe80-907c-41f2-b8de-13eff5c5d3ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -47.625 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1c81d1fd-c646-487f-a7aa-004ba04bf35b")
+	)
+	(pad "" np_thru_hole circle
+		(at -47.625 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8f162df3-912e-45a4-b55d-912958402cfd")
+	)
+	(pad "" np_thru_hole circle
+		(at 47.625 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "86b2409f-3658-4b7c-a432-742e2d367307")
+	)
+	(pad "" np_thru_hole circle
+		(at 47.625 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fcb359e0-c293-4a9f-af2f-31d6f02bcd95")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/keyswitch_model/stabilizer/screw_in/KiCad/stabilizer_6u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

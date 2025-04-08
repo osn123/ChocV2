@@ -1,0 +1,160 @@
+(footprint "RGBLED_SK6812MINI_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "3e99136a-4c0b-4dd3-944e-be2ca1d1b637")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI_SMD"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "5589b9fd-cc04-45c4-b97f-2bb9cf0ea5dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1fccb12-1d61-42c4-8760-ba9d9a4f8238")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c609ae-d894-446f-b1b0-ead09e87a1cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d2b82c9-6c2d-41e6-b347-db6c51774ea9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.75)
+		(end -1.85 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0502be33-ba8d-4a44-af89-0839f07d000f")
+	)
+	(fp_line
+		(start -1.85 -1.75)
+		(end 1.85 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0020d144-56f4-451f-a4d2-5fee9fb0f3f0")
+	)
+	(fp_line
+		(start -1.85 1.75)
+		(end -1.85 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6df53734-5a14-4342-8e19-123a3da37c97")
+	)
+	(fp_line
+		(start -1.85 1.75)
+		(end 1.55 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f812b5-560b-4bb6-98d6-4ac2c973e969")
+	)
+	(fp_line
+		(start 1.55 1.75)
+		(end 1.85 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8ea50a1-1c58-42c7-8ed8-5fe10fb76f7c")
+	)
+	(fp_line
+		(start 1.85 -1.75)
+		(end 1.85 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb4b2ee4-55a3-4493-ad9d-0c23de7fc327")
+	)
+	(pad "1" smd rect
+		(at 1.5 0.85)
+		(size 1.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eae1d282-48db-4c78-b05c-95aad640f0c2")
+	)
+	(pad "2" smd rect
+		(at 1.05 -0.7)
+		(size 2.2 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3bca1d1-7cd5-40f6-a119-8e9dffd9b524")
+	)
+	(pad "3" smd rect
+		(at -1.4 -0.65)
+		(size 1.5 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "479b7e7f-447a-4b52-9889-19ab1bb840aa")
+	)
+	(pad "4" smd rect
+		(at -0.95 0.9)
+		(size 2.4 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "58d1d488-5953-4c86-836f-43746bb7dada")
+	)
+	(model "${BROWNSUGAR_KBD_3DMOD}/SK6812MINI.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

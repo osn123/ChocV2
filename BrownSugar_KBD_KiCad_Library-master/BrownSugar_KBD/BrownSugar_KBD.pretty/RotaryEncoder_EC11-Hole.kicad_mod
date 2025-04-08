@@ -1,0 +1,105 @@
+(footprint "RotaryEncoder_EC11-Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8905e46e-4db2-46fd-bb14-e04d32df5615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder_EC11-Hole"
+		(at 0 10 0)
+		(layer "F.Fab")
+		(uuid "ec678cfe-a587-481a-92c8-834f18dc0dd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b224e6-a698-4f74-80e2-5608fc4dd3f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8393e980-c9d1-428b-9d33-926a8d3d65fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4591b34b-3aa2-4103-84bf-1c10ec751e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.1 -8.5)
+		(end 7.1 -8.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92546f33-93f0-4341-b8f0-bbbf0bc2de35")
+	)
+	(fp_line
+		(start -7.1 9)
+		(end -7.1 -8.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1a31ffd7-493a-4128-98b3-40fbf8d4ca97")
+	)
+	(fp_line
+		(start 7.1 -8.5)
+		(end 7.1 9)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "511fa15f-640f-48ce-8e76-6054706b7c90")
+	)
+	(fp_line
+		(start 7.1 9)
+		(end -7.1 9)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d0d0ab67-9474-4abe-ae25-038b0789f183")
+	)
+)
