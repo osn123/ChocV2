@@ -1,0 +1,444 @@
+(footprint "BAT_BK-18650-PC2_3D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "BT1"
+		(at -35.455 -11.43 180)
+		(layer "F.SilkS")
+		(uuid "ae4b54f7-2b3a-4759-9330-e1ee503176e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BK-18650-PC2"
+		(at -28.47 11.51 180)
+		(layer "F.Fab")
+		(uuid "abfb7874-17c7-455e-aac3-6f05002dc549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "06:BAT_BK-18650-PC2"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6b56b7c-8766-47aa-bb56-642dbcf2ace0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ff265b1-c7e2-4870-9175-938d6f5ab4b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d2131b-3357-49ff-b689-6b39c86d9cf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "MPD (Memory"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44a5aaf8-e214-4e92-b1e0-08b9ff5b1fb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "21.41 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61c44de4-db42-4453-8fa7-bcd2c89c31d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "DFN-14 MPD (Memory Protection Devices)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c54c0b4-2e86-499c-96e9-09106f5c5aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fe39669-ddde-4589-bf56-c3dd64a79414")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/BK-18650-PC2/MPD/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc588728-cba1-4ed2-9ea7-4d5ead132c7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e167b1-98b3-44d8-8f6b-322b357d9889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f795e0be-9086-4a85-a4c9-251766a49509")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/BK-18650-PC2/MPD/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98a0c09a-6816-4330-80c0-3e99177afab8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "BK-18650-PC2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24bb747f-b8d0-4509-98f7-db6090da2dc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            Battery Holder (Open) 18650 1 Cell PC Pin\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cea2ae18-8d1d-4ebb-b507-8c7f53b912ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2611c81-cc84-4351-bdba-719e2d2014e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "MPD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "170dbc6c-f80c-4a1e-9f24-102351b9260a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -41.63 0)
+		(end -39.63 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1860df5-0b50-49f1-954b-5e43bbbb710c")
+	)
+	(fp_line
+		(start -40.63 -1)
+		(end -40.63 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a89b07c-2c5c-4193-ad1a-cab15bcdfec7")
+	)
+	(fp_line
+		(start -38.48 -10.49)
+		(end 38.48 -10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38dd3b7e-9bfd-4376-a1d8-e6394bb81bf8")
+	)
+	(fp_line
+		(start -38.48 10.49)
+		(end -38.48 -10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1f7115d-3c43-46fa-ad76-ab993d886fdf")
+	)
+	(fp_line
+		(start 38.48 -10.49)
+		(end 38.48 10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a79a2fe9-c1f7-4b21-8204-3dc61317d282")
+	)
+	(fp_line
+		(start 38.48 10.49)
+		(end -38.48 10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6deff44a-5e0f-4d09-9425-60c80afd15dc")
+	)
+	(fp_line
+		(start 39.63 0)
+		(end 41.63 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f559f0b-8e27-43ee-90e8-9779db2da2cb")
+	)
+	(fp_line
+		(start -38.73 -10.74)
+		(end 38.73 -10.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b97eb70e-7673-4899-8faf-6c19beca7050")
+	)
+	(fp_line
+		(start -38.73 10.74)
+		(end -38.73 -10.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "676c786e-b990-4750-9c61-bf06d10de205")
+	)
+	(fp_line
+		(start 38.73 -10.74)
+		(end 38.73 10.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81a9d131-93ed-4af4-8c89-8e776735e507")
+	)
+	(fp_line
+		(start 38.73 10.74)
+		(end -38.73 10.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "989a7c09-1b3e-477e-b16b-98d52ebff684")
+	)
+	(fp_line
+		(start -41.63 0)
+		(end -39.63 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aeea9a2-987b-456b-b3ad-310a9f15c77e")
+	)
+	(fp_line
+		(start -40.63 -1)
+		(end -40.63 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cebd6517-6a80-4724-8344-ad443f0362f3")
+	)
+	(fp_line
+		(start -38.48 -10.49)
+		(end 38.48 -10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc90a4d6-7f88-41ff-8b59-64feb201a02a")
+	)
+	(fp_line
+		(start -38.48 10.49)
+		(end -38.48 -10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9645687f-17ef-4d94-8337-e08070286394")
+	)
+	(fp_line
+		(start 38.48 -10.49)
+		(end 38.48 10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5eaa8b8-1898-42e6-9320-bca88665f265")
+	)
+	(fp_line
+		(start 38.48 10.49)
+		(end -38.48 10.49)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "007c9cad-50e5-4a35-99f9-6a62e41b7a72")
+	)
+	(fp_line
+		(start 39.63 0)
+		(end 41.63 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9813eaa9-2e96-4975-8a20-e2fea4f45267")
+	)
+	(pad "" np_thru_hole circle
+		(at -27.805 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "47ffead9-4683-4bb5-85ec-a6d1827726d2")
+	)
+	(pad "" np_thru_hole circle
+		(at 27.81 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5d51615c-c667-4d3e-95a7-8c8d95e6b531")
+	)
+	(pad "+" thru_hole oval
+		(at -36.3 0)
+		(size 2.07 4.14)
+		(drill oval 1.38 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4e658e19-0564-47b1-a75f-06ead6e40045")
+	)
+	(pad "-" thru_hole oval
+		(at 36.6 0)
+		(size 2.07 4.14)
+		(drill oval 1.38 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "439327f9-b374-4076-bb82-396d4fdece7d")
+	)
+	(model "${KIPRJMOD}/BK-18650-PC2/BK-18650-PC2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
