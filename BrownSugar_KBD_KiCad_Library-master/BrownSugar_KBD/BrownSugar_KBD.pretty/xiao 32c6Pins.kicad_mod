@@ -1,0 +1,474 @@
+(footprint "xiao 32c6Pins"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4399a1f4-fa3b-45c1-b06d-fade10e12b0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "xiao 32c6Pins"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e5e92f3-d268-49a9-944f-361e5d9eda3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51d5738-2321-4e0b-a25a-252bfb0b2470")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e974a8a1-76e1-453e-9240-a23b4923f6c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40c1ede8-7396-4bad-bf69-d882afd01b96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "21"
+		(at 1.5 18 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "34257bdc-a77d-46c1-bcd1-b7682de234e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "0"
+		(at 8.5 16 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "6958e2ea-ddf8-463c-a585-9e2a6472cd1b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "1"
+		(at 6 18 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "6d79cf97-3a79-4372-8d0c-2f04d00e70a3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "20"
+		(at -1 9.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "75b46361-0c97-4137-bb54-9aab13991f42")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "23"
+		(at -3.5 18 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "906c853d-2232-4d86-a036-46b0407cf5f2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "2"
+		(at 3.5 16 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "968f213b-36bb-4144-9661-9576035c656a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "18"
+		(at 1.5 7.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "9e9d2f6c-abc7-40a5-8644-b8a480d791a8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "5V"
+		(at 9 9.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "af8b4045-6ede-43e0-9030-196d02e4d5f9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "19"
+		(at -3.5 7.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "b3e32495-02a5-45c5-8515-e29c55446144")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "3V"
+		(at 4 9.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "c179949d-df84-4552-91f5-1fbaccaaffb6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "-G"
+		(at 7 7.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "c3e3e1d7-faac-49bf-b955-b3be4c9ceaf7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "16"
+		(at -6 16 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "cdc614a5-a1e8-409d-bfe0-245fd0f263ca")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "22"
+		(at -1 16 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "e0bd886e-4a48-4ada-8e5f-a6f0f93cda72")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "17"
+		(at -6 9.5 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "f41eead0-aa57-458e-9110-4613cfe1f6d2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "17"
+		(at -9 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "08e8a16f-d27f-4ad1-bd61-963e30f20671")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at 4 16 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "379d498d-d06d-4741-a082-c83f1859eb2e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "18"
+		(at -1.5 9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "4c22ce63-bc39-4152-b938-45514a624ce5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-G"
+		(at 3.5 9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "51fce426-4d99-496f-a334-d3eee119ad2a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "16"
+		(at -9.5 18 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "73fe9646-7d98-4f44-bce8-b4ef9a5010a0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at 1.5 18 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "8a7a08df-a080-4f0f-9d1e-20025de80438")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "23"
+		(at -6.5 16 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "8c5e80e7-3516-4e04-8709-60fedfbefaca")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3V"
+		(at 1 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "97db90e2-fd9b-4a41-9363-0ce908efbd80")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5V"
+		(at 6 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "a170e50b-0f4b-4066-8d72-be870877a367")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "0"
+		(at 6.5 18 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "aaf41d50-bc21-462e-8327-2287102122fe")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "21"
+		(at -1.5 16 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b4ddc51c-4ccc-4897-88f3-5c953f65656f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "19"
+		(at -6.5 9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b9ecdc3d-a86a-4d13-85cf-a239c6d59b7f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "20"
+		(at -4 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "c3b37671-b56c-422b-ab46-237f802ef55f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "22"
+		(at -4 18 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "f13109b2-1694-41e6-81dc-a9ce4dbf2aba")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb73b2f8-519f-4588-bd23-9078091fcd2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
